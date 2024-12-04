@@ -13,7 +13,6 @@ public class Test01 {
 
         //Here is mine code review
         @Test
-        @BeforeSuite
         public void assertTextOnPage(){
             System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
             WebDriver driver = new ChromeDriver();
