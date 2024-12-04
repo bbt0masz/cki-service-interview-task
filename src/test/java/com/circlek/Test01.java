@@ -10,7 +10,7 @@ import static org.testng.Assert.assertEquals;
 
 public class Test01 {
 
-    //CODE REVIEW
+    //Here is mine code review
     @Test
     public void assertTextOnPage(){
         System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
